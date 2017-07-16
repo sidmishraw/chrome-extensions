@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Bookmark Crawler",
+  "description": "This crawls all the existing bookmarks you have and lets you search through them without launching the `View All Bookmarks` page",
+  "version": "0.1.0",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/",
+    "http://www.google.com/",
+    "bookmarks",
+    "tabs"
+  ]
+}

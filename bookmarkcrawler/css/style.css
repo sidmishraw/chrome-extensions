@@ -1,0 +1,8 @@
+.bcbody {
+  font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+  font-size: 100%;
+  direction: "ltr";
+  display: block;
+  min-width: 420px;
+  min-height: 320px;
+}
