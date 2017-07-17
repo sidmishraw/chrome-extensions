@@ -81,9 +81,11 @@
 
       if (result && result["url"]) {
 
-        urlMapping.set(result["title"], result["url"]);
+        let titleString = result["title"].replace(/[<>]/g, "&<>;");
 
-        renderString += `<li><a id="${result["title"]}" href="#">${result["title"]}</a></li>`
+        urlMapping.set(titleString, result["url"]);
+
+        renderString += `<li><a id="${titleString}" href="#">${titleString}</a></li>`
       }
     });
 

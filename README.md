@@ -9,3 +9,8 @@ To install `Bookmark Crawler` follow steps below:
 
 * Download the `bookmarkcrawler.crx` file.
 * Drag and drop it into chrome and follow the onscreen instructions.
+
+#### Issues v0.1.0:
+* HTML content in the bookmark title was not encoded hence leading to odd behavior. This has been fixed in `v0.2.0`
+
+If any issues are found in v0.2.0 please email them to [`sidharth.mishra@sjsu.edu`](mailto:sidharth.mishra@sjsu.edu)
